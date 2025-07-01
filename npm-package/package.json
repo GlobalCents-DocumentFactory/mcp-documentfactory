@@ -1,0 +1,37 @@
+{
+  "name": "@documentfactory/mcp-server",
+  "version": "1.0.0",
+  "description": "DocumentFactory MCP Server - Process documents through the DocumentFactory pipeline with AI tools",
+  "bin": {
+    "df-mcp-server": "./bin/df-mcp-server.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "mcp",
+    "documentfactory", 
+    "server",
+    "document-processing",
+    "ai",
+    "pdf",
+    "conversion"
+  ],
+  "author": "DocumentFactory",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlobalCents-DocumentFactory/mcp-documentfactory"
+  },
+  "homepage": "https://github.com/GlobalCents-DocumentFactory/mcp-documentfactory#readme",
+  "bugs": {
+    "url": "https://github.com/GlobalCents-DocumentFactory/mcp-documentfactory/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

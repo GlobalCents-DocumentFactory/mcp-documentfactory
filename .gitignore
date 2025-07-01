@@ -1,0 +1,130 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Built binaries
+df-mcp-server
+/bin/
+/build/
+/dist/
+
+# GoReleaser artifacts
+dist/
+*.tar.gz
+*.zip
+
+# NPM package node_modules (if any local testing)
+npm-package/node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Configuration files with secrets
+config.json
+config.yaml
+config.yml
+**/config/local.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Cache directories
+.cache/
+cache/
+
+# Docker files (optional, uncomment if needed)
+# Dockerfile.local
+# docker-compose.override.yml
+
+# NATS server data
+nats-server.log
+jetstream/
+
+# MinIO data
+minio-data/
+
+# Python files (for test scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+
+# Testing artifacts
+coverage.out
+coverage.html
+*.cover
+.pytest_cache/
+
+# Build artifacts
+*.a
+*.o
+
+# Service installation files (Windows)
+*.msi
+*.msm
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Documentation build artifacts (keeping source docs)
+# Uncomment the line below if you want to ignore all docs
+docs/
